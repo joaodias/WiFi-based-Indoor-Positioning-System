@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="joaodias.thesis_02.Logger">
+
+    <joaodias.thesis_02.Views.ZoomImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zoomimageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="ADD POSITION"
+        android:id="@+id/button3"
+        android:layout_alignRight="@+id/button4"
+        android:layout_alignEnd="@+id/button4"
+        android:background="#a2000000"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button4"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        android:clickable="false"
+        android:alpha="0.9"
+        android:layout_marginBottom="1dp"
+        android:enabled="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:text="DELETE ALL"
+        android:id="@+id/button4"
+        android:background="#a2000000"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:alpha="0.9" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:id="@+id/button5"
+        android:background="#a2000000"
+        android:textSize="20dp"
+        android:textColor="#ffffffff"
+        android:alpha="0.9"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="1dp" />
+</RelativeLayout>
